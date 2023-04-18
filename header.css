@@ -1,0 +1,86 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+header, footer{
+    width: 100%;
+    min-height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1rem 0;
+}
+footer{
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 4rem 0;
+}
+footer .logo,
+header .logo{
+    font-size: calc(var(--index) * 1.4);
+    text-shadow: none;
+    white-space: nowrap
+}
+footer .logo a{
+    color: var(--color-text-white);
+    text-decoration: none;
+    cursor: pointer;
+}
+header .logo a{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+footer nav ul,
+header nav ul{
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* gap: 2rem; */
+    padding-left: 1rem;
+}
+footer nav ul li,
+header nav ul li{
+    list-style: none;
+}
+footer nav ul li a{
+    white-space: nowrap;
+    color: var(--color-text-white);
+    text-decoration: none;
+    font-size: calc(var(--index) * 1.4);
+    padding: 5px 10px;
+    border-bottom: 1px solid #44444400;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    text-shadow: none;
+}
+footer nav ul li a:hover{
+    border-bottom: 1px solid var(--color-text-white);
+}
+header nav ul li a{
+    color: #444;
+    text-decoration: none;
+    font-size: calc(var(--index) * 1.4);
+    padding: 5px 10px;
+    border-bottom: 1px solid #44444400;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    text-shadow: none;
+    white-space: nowrap
+}
+header nav ul li a:hover{
+    border-bottom: 1px solid #444;
+}

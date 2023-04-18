@@ -1,0 +1,342 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.conteiner90{
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 3rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main-text {
+    width: 50%;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 2rem;
+}
+.main-text__h1{
+    text-shadow: 0 0 10px #666;
+    color: var(--color-text-white);
+    font-size: calc(var(--index) * 1.5);
+}
+.main-text__p{
+    text-shadow: 0 0 10px #666;
+    color: var(--color-text-white);
+    font-size: calc(var(--index) * 1.5); 
+}
+.main-text__p a{
+    color: var(--color-text-white);
+}
+
+.main-text__buttun a{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: calc(var(--index) * 1);
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    cursor: pointer;
+    text-shadow: none;
+    text-decoration: none;
+    color: #444;
+    background-color: var(--color-text-white);
+}
+.main-text__buttun a:hover{
+    cursor: pointer;
+    color: #444;
+    background: -webkit-gradient(linear, left top, left bottom, from(#B7D3FD), to(rgba(135, 236, 194, 0.74)));
+    background: -o-linear-gradient(top, #B7D3FD 0%, rgba(135, 236, 194, 0.74) 100%);
+    background: linear-gradient(180deg, #B7D3FD 0%, rgba(135, 236, 194, 0.74) 100%);
+}
+.main-decor-photo {
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+    width: 50%;
+    height: 150vh;
+    background-color: var(--color-text-white);
+    -webkit-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+}
+.main-img {
+    position: absolute;
+    bottom: -1%;
+    right: -5%;
+    width: 50%;
+    height: 100vh;
+}
+.social-clik{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2rem;
+}
+
+.social-clik a{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+/* ****************************************************************************************** */
+
+/* Почему Йоркширский терьер? */
+
+/* ****************************************************************************************** */
+
+.what-otvet{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1rem;
+}
+.what-item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 24%;
+            flex: 1 0 24%;
+    background-color: var(--color-text-white);
+    padding: 1rem;
+    border-radius: 20px;
+    color: #444;
+    text-shadow: none;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+}
+.what-item strong{
+    font-size: 1.3rem;
+}
+
+/* ****************************************************************************************** */
+
+/* Онас */
+
+/* ****************************************************************************************** */
+
+.onas__p{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    color: var(--color-text-white);
+    font-size: calc(var(--index) * 1.5);
+}
+.__flex-centr{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.__color-yelow{
+    color: #CCE146;
+    font-size: calc(var(--index) * 1.8);
+}
+
+/* ****************************************************************************************** */
+
+/* выпускники */
+
+/* ****************************************************************************************** */
+
+.vipusk{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    gap: 3rem;
+}
+.vipusk-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack:distribute;
+        justify-content:space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    gap: 2rem;
+    color: var(--color-text-white);
+}
+.vipusk-item:nth-child(even){
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: row-reverse wrap;
+            flex-flow: row-reverse wrap;
+}
+.vipusk-item__img {
+    
+    height: 70vh;
+    border-radius: 20px;
+    overflow: hidden;
+    -webkit-box-shadow: -20px -20px 0 #dbdbdba7;
+            box-shadow: -20px -20px 0 #dbdbdba7;
+}
+.vipusk-item:nth-child(even) .vipusk-item__img{
+    -webkit-box-shadow: 20px -20px 0 #dbdbdba7;
+            box-shadow: 20px -20px 0 #dbdbdba7;
+}
+.vipusk-item:nth-child(even) .vipusk-item__text{
+    text-align: end;
+}
+.vipusk-item-logo,.vipusk-item-name,.vipusk-item-titul{
+    line-height: 1.5;
+}
+.vipusk-item-logo {
+    font-size: 2rem;
+}
+.vipusk-item-name {
+    font-size: 1.6rem;
+}
+.vipusk-item-titul {
+    font-size: 1.25rem;
+}
+/* ****************************************************************************************** */
+
+/* Хозяйка */
+
+/* ****************************************************************************************** */
+
+.hozika {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2rem;
+}
+.hozika__img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.hozika__text {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+    color: var(--color-text-white);
+    font-size: calc(var(--index) * 1.8);
+}
+
+/* ****************************************************************************************** */
+
+/* Производители питомника
+ */
+
+/* ****************************************************************************************** */
+.slider {
+}
+.slider-item {
+    min-width: 0;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 10px;
+}
+.slick-list{
+    overflow: hidden;
+}
+.slick-track{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1rem;
+}
+.slider .slick-dots{
+    display: none;
+}
+.slider__img{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: -15px -15px 0 #A09797;
+            box-shadow: -15px -15px 0 #A09797;
+}
+.slider__text{
+    color: var(--color-text-white);
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+
+
+/* ****************************************************************************************** */
+
+/* Производители питомника
+ */
+
+/* ****************************************************************************************** */
+
+
+.slider-item__vistovka{
+    min-width: 0;
+    
+    height: 60vh;
+}
+.slider__img-vistovka{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.slider__img-vistovka img{
+    width: 100%;
+}
